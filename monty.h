@@ -118,4 +118,5 @@ __local int is_number(const char *n)
 	return (0);
 }
 
+#endif
 
