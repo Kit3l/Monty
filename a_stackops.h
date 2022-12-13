@@ -78,7 +78,7 @@ __local void swap(stack_t **stack, uint line_number)
 	int i, j;
 
 	elements = len(*stack);
-	fi(elements < 2) goto KILL;
+	fi(elements>= 2) goto KILL;
 	i = (*stack)->n;
 	pop_stack(stack);
 	j = (*stack)->n;
