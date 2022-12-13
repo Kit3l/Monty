@@ -92,4 +92,3 @@ KILL:	fclose(s.fp);
 }
 
 #endif
-
